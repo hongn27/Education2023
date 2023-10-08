@@ -277,7 +277,7 @@ header .container .menu .main-menu .btn-login {
 .features .container {
   display: flex;
   justify-content: space-between;
-  border: 5px solid #191919;
+  border: 5px solid #c9c9c9;
   padding-top: 80px;
   padding-left: 60px;
   width: 1520px;
@@ -919,8 +919,9 @@ header .container .menu .main-menu .btn-login {
   width: 640px;
   height: 100px;
 }
-.meet-our-team .container .testimonial .title .text-red {
+.meet-our-team .container .testimonial .title p {
   color: #F94D1C;
+  margin-bottom: 30px;
 }
 .meet-our-team .container .testimonial .title h2 {
   font-size: 45px;
@@ -931,7 +932,7 @@ header .container .menu .main-menu .btn-login {
   justify-content: space-between;
   width: 1315px;
   height: 402px;
-  padding-top: 40px;
+  margin-top: 15px;
 }
 .meet-our-team .container .testimonial .clients .box-frame {
   display: flex;
@@ -940,81 +941,37 @@ header .container .menu .main-menu .btn-login {
   width: 420px;
   height: 402px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren {
+.meet-our-team .container .testimonial .clients .box-frame .box-content {
   align-items: end;
   width: 340px;
   height: 306px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren .stars {
+.meet-our-team .container .testimonial .clients .box-frame .box-content .stars {
   color: #F94D1C;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren .text-1 {
+.meet-our-team .container .testimonial .clients .box-frame .box-content .text-1 {
   font-size: 18px;
-  padding-bottom: 30px;
+  margin-bottom: 26px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren .cassandra {
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile {
   display: flex;
-  justify-content: start;
-  align-items: end;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren .cassandra h4 {
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .img {
+  width: 70px;
+  height: 70px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 {
+  width: 240px;
+  height: 55px;
+}
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 h4 {
   font-weight: 600;
-  padding-top: 10px;
 }
-.meet-our-team .container .testimonial .clients .box-frame .cassandra-warren .cassandra p {
-  color: #F94D1C;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling {
-  align-items: end;
-  width: 340px;
-  height: 306px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling .stars {
-  color: #F94D1C;
-  padding-bottom: 30px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling .text-amanda {
-  font-size: 18px;
-  padding-bottom: 30px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling .amanda {
-  display: flex;
-  align-items: end;
-  gap: 20px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling .amanda h4 {
-  font-weight: 600;
-  padding-top: 10px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .amanda-tulling .amanda p {
-  color: #F94D1C;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas {
-  align-items: end;
-  width: 340px;
-  height: 306px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas .stars {
-  color: #F94D1C;
-  padding-bottom: 30px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas .text-jack {
-  font-size: 18px;
-  padding-bottom: 30px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas .jack {
-  display: flex;
-  justify-content: start;
-  align-items: end;
-  gap: 20px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas .jack h4 {
-  font-weight: 600;
-  padding-top: 10px;
-}
-.meet-our-team .container .testimonial .clients .box-frame .jack-mcdogglas .jack p {
+.meet-our-team .container .testimonial .clients .box-frame .box-content .box-profile .text-2 p {
   color: #F94D1C;
 }
 .meet-our-team .container .testimonial .btn-reviews {
@@ -1065,7 +1022,7 @@ header .container .menu .main-menu .btn-login {
   justify-content: space-between;
   width: 1320px;
   height: 429px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .article-news .container .content .images .box-date {
   display: flex;
@@ -1102,8 +1059,10 @@ header .container .menu .main-menu .btn-login {
   font-size: 15px;
 }
 .article-news .container .content .dots {
+  display: flex;
   justify-content: space-between;
-  padding-top: 60px;
+  align-items: center;
+  padding-top: 100px;
   width: 120px;
   height: 12px;
 }
