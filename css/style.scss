@@ -1172,6 +1172,7 @@ header {
             top: 40px;
             width: 155px;
             height: 68px;
+            color: #191919;
         }
     }   
 }    
@@ -1179,7 +1180,7 @@ header {
 .footer{
     padding-top: 120px;
     height:513px;
-    background-color: #191919; 
+    background-color: #191919;
      .container{
         display: flex;
         justify-content: space-between;
@@ -1248,21 +1249,31 @@ header {
                 margin-bottom: 30px;
                 font-weight: 600;
             }  
-        }    
+        } 
+    .line{
     width: 100%;
     height: 1px;
     background-color: #FFFFFF;
-    }                         
+    }              
+    }
+    .line{
+        border: 1px solid #707070;
+        margin-top: 40px;      
+    }       
     .container-socialmedia{
         display: flex;
-        justify-content: center;      
+        justify-content: center;
+        align-items: center;      
         height: 52px;
-        color: #dad9d3;        
+        padding-left: 260px;
+        color: #dad9d3;
+        margin-top: 20px;
+    
         .ikoner{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-top: 60px;
+            margin-top: 20px;
             width: 1320px;
             p{
                 display: flex;
@@ -1274,7 +1285,8 @@ header {
                 a { 
                     margin: 10px;
                     color: #F0EFE9;
-                    font-size: 1.3rem;   
+                    font-size: 1.3rem;
+    
                     &:hover {
                       color: #666666;
                   }
@@ -1285,7 +1297,7 @@ header {
             display: flex;
             position: relative;
             left: 141px;
-            bottom: 60px;       
+            bottom: 100px;       
             width: 308px;
             height: 107px;
                    

@@ -1224,17 +1224,24 @@ header .container .menu .main-menu .btn-login {
   height: 1px;
   background-color: #FFFFFF;
 }
+.footer .line {
+  border: 1px solid #707070;
+  margin-top: 40px;
+}
 .footer .container-socialmedia {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 52px;
+  padding-left: 260px;
   color: #dad9d3;
+  margin-top: 20px;
 }
 .footer .container-socialmedia .ikoner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 60px;
+  margin-top: 20px;
   width: 1320px;
 }
 .footer .container-socialmedia .ikoner p {
@@ -1257,7 +1264,7 @@ header .container .menu .main-menu .btn-login {
   display: flex;
   position: relative;
   left: 141px;
-  bottom: 60px;
+  bottom: 100px;
   width: 308px;
   height: 107px;
 }
