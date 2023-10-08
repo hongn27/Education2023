@@ -67,6 +67,24 @@ html, body {
   color: #191919;
 }
 
+.btn-play {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 52px;
+  margin-left: 40px;
+  color: black;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.btn-play:hover {
+  background-color: rgb(7, 7, 7);
+  color: rgb(230, 226, 226);
+}
+
 header {
   background-color: #F0EFE9;
   padding: 15px;
@@ -256,10 +274,10 @@ header .container .menu .main-menu .btn-login {
     margin-top: 30px;
   }
 }
-@media (min-width: 1450px) {
+@media (min-width: 1400px) {
   .logo-partners .container {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
 
@@ -267,6 +285,7 @@ header .container .menu .main-menu .btn-login {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 .features .container {
@@ -278,86 +297,59 @@ header .container .menu .main-menu .btn-login {
   width: 1520px;
   height: 600px;
 }
-.features .container .box-1 {
+.features .container .box-features {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 630px;
   height: 303px;
 }
-.features .container .box-1 p {
+.features .container .box-features p {
   color: red;
 }
-.features .container .box-1 h2 {
+.features .container .box-features h2 {
   display: flex;
   align-items: end;
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 45px;
 }
-.features .container .box-1 .btn-yellow {
+.features .container .box-features .btn-yellow {
   display: flex;
   justify-content: center;
 }
-.features .container .box-2 {
+.features .container .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
   padding-right: 60px;
 }
-.features .container .box-2 .business-advice {
+.features .container .boxes .box {
   display: flex;
   justify-content: start;
   width: 307px;
   height: 220px;
 }
-.features .container .box-2 .business-advice .advice {
+.features .container .boxes .box-text {
   width: 227px;
   height: 165px;
 }
-.features .container .box-2 .business-advice .advice h4 {
+.features .container .boxes .box-text h4 {
   padding-top: 40px;
   font-weight: 600;
 }
-.features .container .box-2 .startup-business {
+.features .container .boxes .business-advice {
   display: flex;
+  justify-content: start;
   width: 307px;
   height: 220px;
 }
-.features .container .box-2 .startup-business .startup {
+.features .container .boxes .business-advice .advice {
   width: 227px;
   height: 165px;
 }
-.features .container .box-2 .startup-business .startup h4 {
+.features .container .boxes .business-advice .advice h4 {
   padding-top: 40px;
-  font-weight: 600;
-}
-.features .container .box-2 .financial-advice {
-  display: flex;
-  justify-content: start;
-  width: 307px;
-  height: 220px;
-}
-.features .container .box-2 .financial-advice .financial {
-  width: 227px;
-  height: 165px;
-}
-.features .container .box-2 .financial-advice .financial h4 {
-  padding-top: 30px;
-  font-weight: 600;
-}
-.features .container .box-2 .risk-management {
-  display: flex;
-  justify-content: start;
-  width: 307px;
-  height: 220px;
-}
-.features .container .box-2 .risk-management .risk {
-  width: 227px;
-  height: 165px;
-}
-.features .container .box-2 .risk-management .risk h4 {
-  padding-top: 30px;
   font-weight: 600;
 }
 
@@ -440,23 +432,6 @@ header .container .menu .main-menu .btn-login {
   width: 180px;
   height: 56px;
 }
-.about-company .container .btn-play {
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  width: 48px;
-  height: 52px;
-  margin-left: 40px;
-  color: black;
-  font-size: 20px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
-.about-company .container .btn-play:hover {
-  background-color: rgb(7, 7, 7);
-  color: rgb(230, 226, 226);
-}
 .about-company .container .video-text {
   padding-top: 20px;
   margin-left: 20px;
@@ -490,7 +465,7 @@ header .container .menu .main-menu .btn-login {
   font-weight: 600;
   font-size: 45px;
 }
-.our-services .container .boxes {
+.our-services .container .box-frame {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -499,7 +474,7 @@ header .container .menu .main-menu .btn-login {
   gap: 20px;
   height: 631px;
 }
-.our-services .container .boxes .box {
+.our-services .container .box-frame .box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -507,30 +482,30 @@ header .container .menu .main-menu .btn-login {
   height: 310px;
   background-color: white;
 }
-.our-services .container .boxes .box .thin-line {
+.our-services .container .box-frame .box .thin-line {
   height: 2px;
   background-color: #191919;
   width: 39px;
   margin-bottom: 35px;
 }
-.our-services .container .boxes .box h4 {
+.our-services .container .box-frame .box h4 {
   font-weight: 600;
 }
-.our-services .container .boxes .box p {
+.our-services .container .box-frame .box p {
   padding-top: 10px;
 }
-.our-services .container .boxes .box .box-box {
+.our-services .container .box-frame .box .box-content {
   display: flex;
   flex-direction: column;
   justify-content: end;
   width: 248px;
   height: 237px;
 }
-.our-services .container .boxes .box .box-box .aa {
+.our-services .container .box-frame .box .box-content .arrow {
   display: flex;
   justify-content: end;
 }
-.our-services .container .boxes .box .box-box .aa a {
+.our-services .container .box-frame .box .box-content .arrow a {
   display: flex;
   text-decoration: none;
   justify-content: center;
@@ -545,17 +520,18 @@ header .container .menu .main-menu .btn-login {
   background-color: #191919;
   color: #F0EFE9;
 }
-.our-services .container .boxes .box .box-box .aa a:hover {
+.our-services .container .box-frame .box .box-content .arrow a:hover {
   background-color: white;
   color: black;
 }
-.our-services .container .boxes .box:hover {
+.our-services .container .box-frame .box:hover {
   background-color: #F9D783;
   border: 1px solid #191919;
 }
 .our-services .container .btn-browse {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   width: 221px;
   height: 56px;
 }
