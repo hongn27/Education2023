@@ -481,7 +481,6 @@ header .container .menu .main-menu .btn-login {
   flex-direction: column;
   width: 1320px;
   height: 631px;
-  border: 1px solid black;
 }
 .our-services .container .title {
   align-self: flex-start;
@@ -561,29 +560,34 @@ header .container .menu .main-menu .btn-login {
 }
 .our-services .container .btn-browse {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 50px;
   width: 221px;
   height: 56px;
 }
 .our-services .container .btn-browse a {
-  display: center;
+  display: flex;
   text-decoration: none;
   border-radius: 30px;
   padding: 10px 30px;
   font-weight: 500;
   font-size: 16;
+  gap: 7px;
   color: #191919;
   border: 1px solid black;
   background-color: #F0EFE9 i;
-  background-color-margin-left: 8px;
-  background-color-font-size: 0.9em;
 }
 .our-services .container .btn-browse a:hover {
   background-color: black;
   border: 1px solid #191919;
   color: #f0efe9;
+}
+.our-services .container .background {
+  display: flex;
+  position: relative;
+  left: 580px;
+  bottom: 75px;
+  width: 739px;
+  height: 215px;
 }
 
 .why-us {
@@ -1011,11 +1015,14 @@ header .container .menu .main-menu .btn-login {
   width: 797px;
   height: 60px;
 }
-.article-news .container .content .title .h2-btn a {
+.article-news .container .content .title .h2-btn .btn-browse-article a {
   display: flex;
   align-items: center;
   width: 221px;
   height: 56px;
+}
+.article-news .container .content .title .h2-btn i {
+  padding-left: 10px;
 }
 .article-news .container .content .images {
   display: flex;
@@ -1097,14 +1104,21 @@ header .container .menu .main-menu .btn-login {
   width: 495px;
   height: 56px;
 }
-.sign-up .container .search-subscribe input {
+.sign-up .container .search-subscribe .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up .container .search-subscribe .input input {
   width: 308px;
   height: 56px;
   border-radius: 40px;
   border: none;
-  margin-left: 5px;
 }
-.sign-up .container .search-subscribe a {
+.sign-up .container .search-subscribe .btn-subscribe {
+  display: flex;
+}
+.sign-up .container .search-subscribe .btn-subscribe a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1115,8 +1129,21 @@ header .container .menu .main-menu .btn-login {
   color: black;
   text-decoration: none;
 }
-.sign-up .container .search-subscribe a i {
+.sign-up .container .search-subscribe .btn-subscribe a i {
   padding-left: 10px;
+}
+.sign-up .container .search-subscribe .btn-subscribe a:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #dad9d3;
+}
+.sign-up .background {
+  display: flex;
+  position: relative;
+  right: 430px;
+  top: 40px;
+  width: 155px;
+  height: 68px;
 }
 
 .footer {
