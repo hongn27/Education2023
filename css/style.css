@@ -68,8 +68,8 @@ html, body {
 }
 
 header {
-  background-color: #f0efe9;
-  padding: 16px;
+  background-color: #F0EFE9;
+  padding: 15px;
 }
 header .container {
   display: flex;
@@ -98,7 +98,7 @@ header .container .menu {
 }
 header .container .menu .top-menu {
   display: flex;
-  justify-content: flex end;
+  justify-content: flex-end;
   align-items: center;
   border-bottom: 1px solid #dad9d3;
   padding-bottom: 10px;
@@ -121,7 +121,7 @@ header .container .menu .top-menu .contact-information .content-box {
   padding-right: 30px;
   margin-right: 30px;
   border-right: 1px solid #dad9d3;
-  font-family: "inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 300;
 }
@@ -138,7 +138,7 @@ header .container .menu .top-menu .social-media a {
   margin-left: 10px;
 }
 header .container .menu .top-menu .social-media a:hover {
-  color: #666666;
+  color: #7c7c7c;
 }
 header .container .menu .main-menu {
   display: flex;
@@ -173,22 +173,16 @@ header .container .menu .main-menu .btn-login {
 }
 
 .showcase {
-  background-color: #f0efe9;
+  background-color: #F0EFE9;
 }
 .showcase .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .showcase .container .content {
   padding-top: 40px;
   padding-bottom: 40px;
-  text-align: center;
-}
-@media (min-width: 1200px) {
-  .showcase .container .content {
-    text-align: left;
-  }
+  align-items: center;
 }
 @media (min-width: 1200px) {
   .showcase .container .content {
@@ -196,9 +190,10 @@ header .container .menu .main-menu .btn-login {
   }
 }
 .showcase .container .content h1 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .showcase .container .content h1 {
@@ -220,14 +215,14 @@ header .container .menu .main-menu .btn-login {
 @media (min-width: 768px) {
   .showcase .container .content p {
     font-size: 20px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 .showcase .container .content a {
+  display: block;
   margin-right: 0px;
   margin-bottom: 20px;
-  display: block;
 }
 @media (min-width: 768px) {
   .showcase .container .content a {
@@ -237,7 +232,7 @@ header .container .menu .main-menu .btn-login {
 }
 .showcase .container img {
   display: none;
-  margin-right: -50px;
+  margin: left -50%;
 }
 @media (min-width: 1200px) {
   .showcase .container img {
@@ -246,25 +241,25 @@ header .container .menu .main-menu .btn-login {
 }
 
 .logo-partners {
-  display: flex;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .logo-partners .container {
-  display: flex;
-  background-color: white;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
   align-items: center;
-  padding-top: 92px;
-  padding-bottom: 50px;
   gap: 50px;
 }
-@media (max-width: 768px) {
-  .logo-partners .container .img {
+@media (min-width: 768px) {
+  .logo-partners .container {
     display: block;
+    margin-top: 30px;
   }
 }
-@media (max-width: 600px) {
-  .logo-partners .container .img {
-    display: block;
+@media (min-width: 1450px) {
+  .logo-partners .container {
+    display: flex;
+    margin-top: 30px;
   }
 }
 
@@ -287,7 +282,7 @@ header .container .menu .main-menu .btn-login {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 600px;
+  width: 630px;
   height: 303px;
 }
 .features .container .box-1 p {
@@ -439,7 +434,7 @@ header .container .menu .main-menu .btn-login {
 }
 .about-company .container .ac-buttons {
   display: flex;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 .about-company .container .btn-black {
   width: 180px;
@@ -573,7 +568,7 @@ header .container .menu .main-menu .btn-login {
   font-size: 16;
   gap: 7px;
   color: #191919;
-  border: 1px solid black;
+  border: 1px solid rgb(173, 171, 171);
   background-color: #F0EFE9 i;
 }
 .our-services .container .btn-browse a:hover {
