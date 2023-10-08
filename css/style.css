@@ -1137,13 +1137,14 @@ header .container .menu .main-menu .btn-login {
   border: 1px solid #191919;
   color: #dad9d3;
 }
-.sign-up .background {
+.sign-up .container .background {
   display: flex;
   position: relative;
-  right: 430px;
+  left: 230px;
   top: 40px;
   width: 155px;
   height: 68px;
+  color: #191919;
 }
 
 .footer {
@@ -1229,26 +1230,34 @@ header .container .menu .main-menu .btn-login {
   height: 52px;
   color: #dad9d3;
 }
-.footer .container-socialmedia .socialmedia {
+.footer .container-socialmedia .ikoner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 60px;
   width: 1320px;
 }
-.footer .container-socialmedia .socialmedia p {
+.footer .container-socialmedia .ikoner p {
   display: flex;
   padding-top: 20px;
   padding-left: 30px;
 }
-.footer .container-socialmedia .socialmedia .social-media {
+.footer .container-socialmedia .ikoner .social-media {
   justify-content: space-between;
 }
-.footer .container-socialmedia .socialmedia .social-media a {
+.footer .container-socialmedia .ikoner .social-media a {
   margin: 10px;
   color: #F0EFE9;
   font-size: 1.3rem;
 }
-.footer .container-socialmedia .socialmedia .social-media a:hover {
+.footer .container-socialmedia .ikoner .social-media a:hover {
   color: #666666;
+}
+.footer .container-socialmedia .bg-wawy {
+  display: flex;
+  position: relative;
+  left: 141px;
+  bottom: 60px;
+  width: 308px;
+  height: 107px;
 }
